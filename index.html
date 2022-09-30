@@ -1,12 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Kay Thwe Moe</title>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-  <h1>My name is Kay Thwe Moe</h1>
+ 
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg bg-secondary py-2 shadow">
+  <div class="container-lg">
+    <a class="navbar-brand text-info fst-bold fs-5" href="#">
+      <h2>Fashion Designer</h2>
+    </a>
+     <div class="dropdown">
+      <button class="btn btn-secondary btn-info px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+<li>
+  <a class="dropdown-item" href="#home">Home</a>
+</li>
+<li>
+  <a class="dropdown-item" href="#about">About</a>
+</li>
+<li>
+ <a class="dropdown-item" href="#services">Services</a>
+</li>
+<li>
+<a class="dropdown-item" href="#portfolio">Portfolio</a>
+</li>
+
+<li>
+  <a class="dropdown-item" href="#contact">Contact</a>
+</li>
+    </ul>
+   </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+<!-- home section start -->
+<section class="bg-dark p-2 text-light bg-opacity-10 " id="home">
+  <div class="container-lg">
+   <div class="row min-vh-50 align-items-center align-content-=center">
+    <div class="col-md-5 mt-5 mt-md-0">
+     <div class="home-img text-center">
+      <img src="img/testimonial/1.jpg" class="rounded-circle mw-0" width="400px" alt="profile img">
+     </div>
+    </div>
+    <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+     <div class="home-text mt-5 ">
+      <p class="text-muted mb-1">Hello I'am</p>
+      <h1 class="text-info text-uppercase fs-1 fw-4">Fashion Designer</h1>
+      <h2 class="fs-4 text-info">Kay Thwe Moe</h2>
+      <p mt-4 text-muted>I am a fashion designer from Myanmar. I like to create beautiful designs.A person trying to be a successful designer.</p>
+      <a href="#portfolio" class="btn btn-secondary mt-3 px-3">My work</a>
+     </div>
+    </div>
+   </div>
+  </div>
+</section>
+<!-- home section end -->
+<!-- about section start -->
+<section class="about bg-dark py-3 text-light bg-opacity-10 " id="about">
+ <div class="container-lg py-4">
+  <div class="row justify-content-center">
+   <div class="col-lg-8 mt-5">
+    <div class="section-title text-center ">
+     <h2 class="fw-bold mb-5 text-info">About Me</h2>
+    </div>
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img src="img/testimonial/4.jpg"  alt="" height="400px" width="450px">
+     </div>
+   <div class="col-md-6">
+    <div class="about-text">
+     <h2 class="fs-4 mb-3 ">
+     I'm Kay Thwe Moe.I was born december13,2004 on mandalay.I'm 18years old. I am a high school student.Now, I am currently studying programming.But,I want to be a good professional Fashion Designer.
+     </h2>
+    </div>
+    <div class="row mt-5">
+      <div class="offset-lg-5 col-md-2">
+        <h1 class="text-center">Skills</h1>
+        <hr class="border border-dark mt-0">
+       
+      </div>
+
+      <div class="row text-center text-uppercase my-3 bg-dark">
+        <div class="col-sm-4">
+         <div class="fact-item">
+          <h4 class="fs-1 fw-bold">100</h4>
+          <p class="text-muted">Projects Completed</p>
+         </div>
+        </div>
+        <div class="col-sm-4">
+         <div class="fact-item">
+          <h4 class="fs-1 fw-bold">90</h4>
+          <p class="text-muted">Happy Clients</p>
+         </div>
+       </div>
+       <div class="col-sm-4">
+         <div class="fact-item">
+          <h4 class="fs-1 fw-bold">95</h4>
+          <p class="text-muted">Positive Reviews</p>
+         </div>
+       
+      </div>
+      <div class="container text-center">
+       <div class="skill-item mb-4">
+       <h2 class="fs-6">Html</h2>
+         <div class="progress" style="height: 1px;">
+         <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+       </div>
+       <div class="skill-item mb-4">
+       <h2 class="fs-6">Css</h2>
+         <div class="progress" style="height: 1px;">
+         <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+       </div>
+       <div class="skill-item mb-4">
+       <h2 class="fs-6">Javascript</h2>
+         <div class="progress" style="height: 1px;">
+         <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 75%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+       </div>
+       <div class="skill-item">
+       <h2 class="fs-6">Bootstrap</h2>
+         <div class="progress" style="height: 1px;">
+         <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   <hr>
+ </div>
+</div>
+</section>
+<!-- about section end -->
+
+<!-- service section start -->
+<section class="services bg-dark p-2 text-light bg-opacity-10" id="services">
+ <div class="container-lg py-4">
+ <div class="row justify-content-center">
+   <div class="col-lg-8">
+    <div class="section-title text-center">
+     <h2 class="fw-bold mb-5 text-info">What I Do</h2>
+    </div>
+   </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm p-4 rounded bg-white">
+       <div class="icon my-3 text-danger fs-2">
+        <i class="fas fa-code"></i>
+       </div>
+       <h3 class="fs-5 py-2 text-dark">Studying</h3>
+       <p class="text-dark">I am studying design to become a good professional designer</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm p-4 rounded bg-white">
+       <div class="icon my-3 text-danger fs-2">
+        <i class="fas fa-lightbulb"></i>
+       </div>
+       <h3 class="fs-5 py-2 text-dark">Creative Design</h3>
+       <p class="text-dark">I am trying to create a beautiful prom dress</p>
+      </div>
+  </div>
+  <div class="col-md-6 col-lg-4 mb-4">
+      <div class="service-item shadow-sm p-4 rounded bg-white">
+       <div class="icon my-3 text-danger fs-2">
+        <i class="fas fa-image"></i>
+       </div>
+       <h3 class="fs-5 py-2 text-dark">Production</h3>
+       <p class="text-dark">I want to sew beautiful fashion designs myself</p>
+      </div>
+ </div>
+</section>
+
+<!-- service section end -->
+<!-- portfolio section start -->
+<section class="portfolio bg-dark p-2 text-light bg-opacity-10" id="portfolio">
+ <div class="container-lg py4">
+ <div class="row justify-content-center">
+   <div class="col-lg-8">
+    <div class="section-title text-center">
+     <h2 class="fw-bold mb-5 text-info">Latest Works</h2>
+    </div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-md-6 col-lg-4">
+     <div class="portfolio-item">
+      <img src="img/portfolio/fs1.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+      <h3 class="text-capitalize fs-5 my-2">Tea Dress</h3>
+      <p class="mb-4"><a href="#" class="text-info text-decoration-none">Live Demo</a></p>
+     </div>
+   </div>
+   <div class="col-md-6 col-lg-4">
+     <div class="portfolio-item">
+      <img src="img/portfolio/fs2.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+      <h3 class="text-capitalize fs-5 my-2">Party Dress</h3>
+      <p class="mb-4"><a href="#" class="text-info text-decoration-none">Live Demo</a></p>
+     </div>
+   </div>
+   <div class="col-md-6 col-lg-4">
+     <div class="portfolio-item">
+      <img src="img/portfolio/fs3.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+      <h3 class="text-capitalize fs-5 my-2">Wedding Dress</h3>
+      <p class="mb-4"><a href="#" class="text-info text-decoration-none">Live Demo</a></p>
+     </div>
+   </div>
+   <div class="col-md-6 col-lg-4">
+     <div class="portfolio-item">
+      <img src="img/portfolio/fs4.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+      <h3 class="text-capitalize fs-5 my-2">Trampet Dress </h3>
+      <p class="mb-4"><a href="#" class="text-info text-decoration-none">Live Demo</a></p>
+     </div>
+   </div>
+   <div class="col-md-6 col-lg-4">
+     <div class="portfolio-item">
+      <img src="img/portfolio/fs5.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+      <h3 class="text-capitalize fs-5 my-2">A-lin Dress</h3>
+      <p class="mb-4"><a href="#" class="text-info text-decoration-none">Live Demo</a></p>
+     </div>
+   </div>
+   <div class="col-md-6 col-lg-4">
+     <div class="portfolio-item">
+      <img src="img/portfolio/fs6.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+      <h3 class="text-capitalize fs-5 my-2">Ballgown Dress</h3>
+      <p class="mb-4"><a href="#" class="text-info text-decoration-none">Live Demo</a></p>
+     </div>
+   </div>
+  </div>
+ </div>
+</section>
+<!-- portfolio section end -->
+<!-- freelancer available section start -->
+<section class="freelancer-available py-2 bg-secondary">
+<div class="ccontainer-lg py-4">
+ <div class="row justify-content-center">">
+  <div class="col-lg-8 text-center">
+    <p class="text-dark fs-5">Do you want to dream of beautiful fashion?</p>
+    <h2 class="fs-1 text-dark mb-4">You can get beautiful fashion designs.</h2>
+    <a href="#contact" class="btn btn-outline-darkHire text-dark">Hire Me</a>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+<!-- freelancer available section end-->
+<!-- contact section start -->
+<section class="contact bg-dark
+ p-2 text-dark bg-opacity-10" id="contact">
+<div class="container-lg py-4">
+ <div class="row justify-content-center">
+   <div class="col-lg-8">
+    <div class="section-title text-center">
+     <h2 class="fw-bold mb-5">Contact Me</h2>
+    </div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-md-5">
+    <div class="contact-item d-flex mb-3">
+      <div class="icon fs-4 text-info">
+        
+      </div>
+      <div class="text ms-3">
+       <h3 class="fs-5 text-light">Email</h3>
+       <p class="text-muted text-info">kthwe@gmail.com</p>
+      </div>
+    </div>
+    <div class="contact-item d-flex mb-3">
+      <div class="icon fs-4 text-info">
+        
+      </div>
+      <div class="text ms-3">
+       <h3 class="fs-5 text-light">Phone</h3>
+       <p class="text-muted ">09989514724</p>
+       <p class="text-muted">09883028008</p>
+      </div>
+    </div>
+    <div class="contact-item d-flex mb-3">
+      <div class="icon fs-4 text-info">
+        <i class="fas fa-mat-market-alt"></i>
+      </div>
+      <div class="text ms-3">
+       <h3 class="fs-5 text-light">Visit Office</h3>
+       <p class="text-muted">119*120st,Pyin Gyi Tangon Township</p>
+      </div>
+    </div>
+   </div>
+   <div class="col-md-7">
+    <div class="contact-form">
+    <form>
+      <div class="row">
+       <div class="col-lg-6 mb-4">
+       <input type="text"placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+       </div>
+       <div class="col-lg-6 mb-4">
+          <input type="text"placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+       </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-12 mb-4">
+      <input type="text"placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-12 mb-4">
+      <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea placeholder>
+      </div>
+      </div>
+      <div class="row">
+       <div class="col-lg-12">
+       <button type="submit" class="btn btn-secondary px-3">
+      Send Message
+       </button>
+       </div>
+      </div>
+    </form>
+    </div>
+   </div>
+  </div>
+</div>
+</section>
+ <!-- contact section end -->
+
+<!-- footer start section -->
+<footer class="footer border-top py-4 bg-dark ">
+  <div class="container-lg">
+    <div class="row">
+     <div class="col-lg-12 ">
+       <p class="m-0 text-center text-light  ">Design By Kthwe Make With  <span style="color: rgb(12, 135, 218);">&hearts;</span></p>
+     </div>
+    </div>
+  </div>
+</footer>
+<!-- footer end section -->
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
